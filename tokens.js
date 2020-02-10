@@ -2,7 +2,7 @@ const tokens = [
 {
 	"symbol":"HBC",
 	"mode":"long",
-	"precent":0.1,
+	"precent":0.01,
     "longshort":5
 },
 {
@@ -14,7 +14,7 @@ const tokens = [
 {
 	"symbol":"ENG",
 	"mode":"long",
-	"precent":0.1,
+	"precent":0.01,
     "longshort":5
 },
 {
@@ -26,7 +26,7 @@ const tokens = [
 {
 	"symbol":"DEC",
 	"mode":"long",
-	"precent":0.1,
+	"precent":0.01,
     "longshort":5
 },
 {
@@ -38,7 +38,7 @@ const tokens = [
 {
 	"symbol":"WEED",
 	"mode":"long",
-	"precent":0.1,
+	"precent":0.01,
     "longshort":5
 },
 {
@@ -80,7 +80,7 @@ const tokens = [
 {
 	"symbol":"STARDUST",
 	"mode":"long",
-	"precent":0.1,
+	"precent":0.01,
 	"longshort":5
 }
 ]
