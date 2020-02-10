@@ -1,9 +1,9 @@
 const tokens = [
 {
-	"symbol":"HBC",
-	"mode":"long",
-	"precent":0.01,
-    "longshort":5
+	"symbol":"HBC",//symbol of token
+	"mode":"long",//long or short *long buys, then sells higher *short sells, then buys back lower
+	"precent":0.01,//precent of tokens traded each interval
+    "longshort":5//precent of profit to take
 },
 {
 	"symbol":"HBC",
