@@ -14,7 +14,7 @@ const tokens = [
 {
 	"symbol":"ENG",
 	"mode":"long",
-	"precent":0.01,
+	"precent":0.02,
     "longshort":5
 },
 {
