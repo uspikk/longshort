@@ -2,7 +2,7 @@ const tokens = [
 {
 	"symbol":"HBC",//symbol of token
 	"mode":"long",//long or short *long buys, then sells higher *short sells, then buys back lower
-	"precent":0.01,//precent of tokens traded each interval
+	"precent":0.02,//precent of tokens traded each interval
     "longshort":5//precent of profit to take
 },
 {
@@ -26,7 +26,7 @@ const tokens = [
 {
 	"symbol":"DEC",
 	"mode":"long",
-	"precent":0.01,
+	"precent":0.02,
     "longshort":5
 },
 {
@@ -38,7 +38,7 @@ const tokens = [
 {
 	"symbol":"WEED",
 	"mode":"long",
-	"precent":0.01,
+	"precent":0.02,
     "longshort":5
 },
 {
@@ -51,6 +51,12 @@ const tokens = [
 	"symbol":"PAL",
 	"mode":"short",
 	"precent":0.1,
+	"longshort":5
+},
+{
+	"symbol":"LEO",
+	"mode":"long",
+	"precent":0.02,
 	"longshort":5
 },
 {
