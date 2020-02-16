@@ -88,6 +88,18 @@ const tokens = [
 	"mode":"long",
 	"precent":0.01,
 	"longshort":5
+},
+{
+	"symbol":"SIM",
+	"mode":"long",
+	"precent":0.01,
+	"longshort":5
+},
+{
+	"symbol":"STARDUST",
+	"mode":"short",
+	"precent":0.1,
+	"longshort":5
 }
 ]
 module.exports = tokens
