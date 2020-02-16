@@ -96,7 +96,7 @@ const tokens = [
 	"longshort":5
 },
 {
-	"symbol":"STARDUST",
+	"symbol":"SIM",
 	"mode":"short",
 	"precent":0.1,
 	"longshort":5
