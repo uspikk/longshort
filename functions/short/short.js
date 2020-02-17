@@ -48,7 +48,7 @@ function sellmarket(token, book){
  let balances = bal("bal")
  let per = bal("per")
  let orderquantity = (balances[token.symbol] * token.precent / 100).toFixed(per[token.symbol])*1
- let firstorderprice = book[0].price
+ let firstorderprice = book[0].price*1
  firstorderprice = firstorderprice.toFixed(8)*1
  firstorderprice = JSON.stringify(firstorderprice)
  if(orderquantity === 0){
