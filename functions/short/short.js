@@ -64,7 +64,7 @@ function sellmarket(token, book){
   	"contractPayload" : {
        "symbol": token.symbol,
        "quantity": orderquantity,
-       "price": book[0].price
+       "price": firstorderprice
        }
     }
  txarray.push(sellload);
