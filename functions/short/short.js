@@ -48,8 +48,9 @@ function sellmarket(token, book){
  let balances = bal("bal")
  let per = bal("per")
  let orderquantity = (balances[token.symbol] * token.precent / 100).toFixed(per[token.symbol])*1
- book[0].price = (book[0].price).toFixed(8)*1
- book[0].price = JSON.stringify(book[0].price)
+ let firstorderprice = book[0].price
+ firstorderprice = firstorderprice.toFixed(8)*1
+ firstorderprice = JSON.stringify(firstorderprice)
  if(orderquantity === 0){
   console.log("ERROR order quantity 0, will not transact...")
   nextqueue();
