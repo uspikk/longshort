@@ -30,12 +30,6 @@ const tokens = [
     "longshort":5
 },
 {
-	"symbol":"DEC",
-	"mode":"short",
-	"precent":0.1,
-	"longshort":5
-},
-{
 	"symbol":"WEED",
 	"mode":"long",
 	"precent":0.02,
