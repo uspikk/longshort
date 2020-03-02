@@ -28,7 +28,10 @@ function getbook(token, offset, book){
     bundler(book, token.symbol, "sell", per);
     return;
    }
-  })
+  }).catch(err => {
+  getbook(token, offset, book);
+  return;
+ })
 }
 
 function firstordercheck(token, book){

@@ -27,6 +27,9 @@ function getbalances(){
    }
   }
   getpercision();
+ }).catch(err => {
+  getbalances();
+  return;
  })
 }
 
@@ -44,6 +47,9 @@ function getpercision(){
    tokenpersicions[data.tokens[i].symbol] = data.tokens[i].precision
   }
   startiterating();
+ }).catch(err => {
+  getpercision();
+  return;
  })
 }
 

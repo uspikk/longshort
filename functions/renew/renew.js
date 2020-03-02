@@ -23,7 +23,10 @@ function renewlong(token, offset, book){
     sortlong(token, book);
     return;
    }
-  })
+  }).catch(err => {
+  renewlong(token, offset, book);
+  return;
+ })
 }
 
 async function sortlong(token, book){
@@ -73,7 +76,10 @@ function renewshort(token, offset, book){
     sortshort(token, book);
     return;
    }
-  })
+  }).catch(err => {
+  renewshort(token, offset, book);
+  return;
+ })
 }
 
 async function sortshort(token, book){

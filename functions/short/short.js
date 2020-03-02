@@ -28,7 +28,10 @@ function getbook(token, offset, book){
     firstordercheck(token, book);
     return;
    }
-  })
+  }).catch(err => {
+  getbook(token, offset, book);
+  return;
+ })
 }
 
 function firstordercheck(token, book){
