@@ -14,7 +14,7 @@ const tokens = [
 {
 	"symbol":"ENG",
 	"mode":"long",
-	"precent":0.02,
+	"precent":0.002,
     "longshort":5
 },
 {
@@ -26,7 +26,7 @@ const tokens = [
 {
 	"symbol":"DEC",
 	"mode":"long",
-	"precent":0.02,
+	"precent":0.002,
     "longshort":5
 },
 {
@@ -50,7 +50,7 @@ const tokens = [
 {
 	"symbol":"LEO",
 	"mode":"long",
-	"precent":0.02,
+	"precent":0.002,
 	"longshort":5
 },
 {
@@ -80,13 +80,13 @@ const tokens = [
 {
 	"symbol":"STARDUST",
 	"mode":"long",
-	"precent":0.01,
+	"precent":0.002,
 	"longshort":5
 },
 {
 	"symbol":"SIM",
 	"mode":"long",
-	"precent":0.01,
+	"precent":0.002,
 	"longshort":5
 },
 {
