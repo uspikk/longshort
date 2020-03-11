@@ -48,6 +48,12 @@ const tokens = [
 	"longshort":5
 },
 {
+	"symbol":"PAL",
+	"mode":"long",
+	"precent":0.002,
+	"longshort":5
+},
+{
 	"symbol":"LEO",
 	"mode":"long",
 	"precent":0.002,
