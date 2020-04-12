@@ -100,6 +100,18 @@ const tokens = [
 	"mode":"short",
 	"precent":0.1,
 	"longshort":5
+},
+{
+	"symbol":"HIVEP",
+	"mode":"long",
+	"precent":0.002,
+	"longshort":5
+},
+{
+	"symbol":"HIVEP",
+	"mode":"short",
+	"precent":0.1,
+	"longshort":5
 }
 ]
 module.exports = tokens
